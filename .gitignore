@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/src/teleop_twist_keyboard
+/src/navigation
+/src/slam_gmapping
