@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/stm32/6.STM32运动底盘源码/STM32运动底盘源码_ROS机器人控制板_新版C50A/F407VET6_大车阿克曼代码_C50A版本_(2022.11.08)/USER",
+      "program": "e:/stm32/6.STM32运动底盘源码/STM32运动底盘源码_ROS机器人控制板_新版C50A/F407VET6_大车阿克曼代码_C50A版本_(2022.11.08)/USER/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

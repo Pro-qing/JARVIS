@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: admin admin, admin, LIC=X1E4T-REE9X-UMU9A-1IGLA-U7XGV-0UR1W
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.34.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+E:\stm32\bs\JARVIS\MDK-ARM\JARVIS.uvprojx
+Project File Date:  01/20/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'JARVIS'
+compiling port.c...
+..\FreeRTOS\portable\RVDS\ARM_CM4_MPU\port.c(351): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( ( configMAX_SYSCALL_INTERRUPT_PRIORITY ) );
+..\FreeRTOS\portable\RVDS\ARM_CM4_MPU\port.c(448): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( uxCriticalNesting == 1000UL );
+..\FreeRTOS\portable\RVDS\ARM_CM4_MPU\port.c(467): warning:  #223-D: function "printf" declared implicitly
+  	configASSERT( uxCriticalNesting );
+..\FreeRTOS\portable\RVDS\ARM_CM4_MPU\port.c(827): warning:  #223-D: function "printf" declared implicitly
+  			configASSERT( ucCurrentPriority >= ucMaxSysCallPriority );
+..\FreeRTOS\portable\RVDS\ARM_CM4_MPU\port.c(843): warning:  #223-D: function "printf" declared implicitly
+  		configASSERT( ( portAIRCR_REG & portPRIORITY_GROUP_MASK ) <= ulMaxPRIGROUPValue );
+..\FreeRTOS\portable\RVDS\ARM_CM4_MPU\port.c: 5 warnings, 0 errors
+linking...
+JARVIS\JARVIS.axf: Error: L6200E: Symbol SVC_Handler multiply defined (by port.o and stm32f4xx_it.o).
+JARVIS\JARVIS.axf: Error: L6200E: Symbol PendSV_Handler multiply defined (by port.o and stm32f4xx_it.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 2 error messages.
+"JARVIS\JARVIS.axf" - 2 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil.STM32F4xx_DFP.3.0.0
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_JARVIS
+  D:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
